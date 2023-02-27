@@ -6,7 +6,7 @@
 
     <groupId>com.obiscr</groupId>
     <artifactId>openai-auth</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>openai-auth</name>
     <url>https://github.com/obiscr/openai-auth</url>
