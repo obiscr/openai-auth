@@ -4,8 +4,19 @@ This project is the Java version(Only Auth model) of [revChatGPT](https://github
 
 ## How to use
 
-Create an auth object:
+Import library
 
++ Maven
+
+```xml
+<dependency>
+    <groupId>com.obiscr</groupId>
+    <artifactId>openai-auth</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+Create an auth object:
 
 ```java
 OpenAIAuth openAIAuth = new OpenAIAuth("<your email>","<your password>");
