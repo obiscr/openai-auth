@@ -37,7 +37,7 @@ public class OpenAISession {
         this.accessToken = accessToken;
     }
 
-    private static class User {
+    public static class User {
         private String id;
         private String name;
         private String email;

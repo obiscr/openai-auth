@@ -10,9 +10,13 @@ import java.net.SocketAddress;
  */
 public class OpenAIProxy {
 
-    private final String hostname;
-    private final Integer port;
-    private final Proxy.Type proxyType;
+    private String hostname;
+    private Integer port;
+    private Proxy.Type proxyType;
+
+    public OpenAIProxy(String hostname, Integer port) {
+        new OpenAIProxy(hostname, port, Proxy.Type.DIRECT);
+    }
 
     public OpenAIProxy(String hostname, Integer port, Proxy.Type proxyType) {
         this.hostname = hostname;
