@@ -1,5 +1,7 @@
 # OpenAI Auth
 
+[![](https://img.shields.io/maven-central/v/com.obiscr/openai-auth?label=Maven%20Central)](https://search.maven.org/artifact/com.obiscr/openai-auth)
+
 This project is the Java version(Only Auth model) of [revChatGPT](https://github.com/acheong08/ChatGPT).
 
 ## How to use
